@@ -1,0 +1,70 @@
+body {
+    background-color:#add8e6;
+}
+.Main {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #bc8f8f;
+    text-align: center;
+    font-family: cursive;
+}
+.Item {
+    font-family: fantasy;
+    border-radius: 20px;
+    background-color: #b3c7d6;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    text-align: center;
+}
+.Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.End {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: monospace;
+    background-color: #bc8f8f;
+}
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Background {
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("BG.jpg");
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 400;
+}
+.Image{
+    border: 2px solid #000000;
+    border-radius: 100px;
+}
+.Image:hover{
+    border: 2px solid #0288d1;
+    border-radius: 100px;
+    transform: scale(1.15);
+    opacity: 50%;
+}
+a:link {
+    color: #ffffff;
+}
+a:visited {
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
